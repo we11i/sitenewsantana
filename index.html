@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe Santana</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, rgb(31, 32, 32), rgb(2, 2, 0));
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .tela-login {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 80px;
+            border-radius: 5%;
+            color: bisque;
+        }
+        .input {
+            padding: 10px; 
+            outline: none;
+            border: none;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+        .button {
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            width: 100%;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: deeppink;
+        }
+        .login-image {
+            max-width: 50%; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="equipelg">
+        </div>
+        <div class="tela-login">
+            <h1>Bem vindo</h1>
+            <form action="principal.html" method="post">
+                <input type="text" class="input" placeholder="Nome" required>
+                <br><br>
+                <input type="password" class="input" placeholder="Sobrenome" required>
+                <br><br>
+                <div class="botao">
+                <a href= "principal.html"> <button type="submit" class="button">Enviar</button><a href=""></a> 
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
